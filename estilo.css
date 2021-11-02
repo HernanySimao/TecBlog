@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica; sans-serif;
+	background: #f3f3f3;
+}
+
+.navegacao{
+	background: #ffffff;
+	border-bottom: 1px solid #484848;
+	height: 45px;
+	position: fixed;
+	top:0;
+   	width: 100%;
+}
+
+.logotipo{
+	padding: 5px;
+	float: left;
+	
+}
+
+.barraMenu{
+
+	float: right;
+	padding: 10px 0  ;
+	margin: 5px;
+	width: 10px auto;
+}
+
+.area{
+  width: 720px;
+  margin: 0 auto;
+}
+
+.verde{
+	color:#b9c941; 
+}
+ 
+
+.barra-branca-do-conteudo{
+	width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+.data{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	margin-bottom: 10px;
+	bottom: 10px;
+}
+
+.info-post{
+	background: #ffffff;
+	padding: 10px;
+	margin: 5px auto 5px auto;
+	
+
+}
+
+.img{
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+
+.img:hover{
+
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.postado{
+ border-left: 5px solid #d8d8d8;
+ padding-bottom:5px;
+ display: block;
+ margin-top: 10px;
+}
+
+
+
+
+
+/*Tratamento do link */
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #838383;
+}
+
+
+/*Tratamento do link */
+
+a: link{
+color: #838383;
+}
+
+
+/*O link que eu ja visitei*/
+a:visited  {
+	color: #838383;
+}
+
+/*O link que eu estou com o mause em cima*/
+a:hover{
+	color: white;
+	background: #b9c941;
+}
+
+
+/*O link que eu estou no momento*/
+a:ative{
+	color: white;
+	background: #535353;
+}
+ 
